@@ -1,0 +1,113 @@
+{
+  "palette": {
+    "ocean": {
+      "100": "#e6f1ff",
+      "200": "#c2ddff",
+      "300": "#94c2ff",
+      "400": "#5da3ff",
+      "500": "#3b82f6",
+      "600": "#2563eb",
+      "700": "#1d4ed8",
+      "800": "#1e40af",
+      "900": "#1e3a8a",
+      "1000": "#172554"
+    },
+    "neutral": {
+      "100": "#f8fafc",
+      "200": "#f1f5f9",
+      "300": "#e2e8f0",
+      "400": "#cbd5e1",
+      "500": "#94a3b8",
+      "600": "#64748b",
+      "700": "#334155",
+      "800": "#1e293b",
+      "900": "#0f172a",
+      "1000": "#020617"
+    },
+    "coral": {
+      "100": "#fff1f0",
+      "200": "#ffd8d4",
+      "300": "#ffb3aa",
+      "400": "#ff8a7a",
+      "500": "#ff5c42",
+      "600": "#e6432a",
+      "700": "#c22f1a",
+      "800": "#8f2013",
+      "900": "#5c140c",
+      "1000": "#330a06"
+    },
+    "white": "#FFFFFF",
+    "black": "#000000"
+  },
+
+  "semantic": {
+    "light": {
+      "text": {
+        "default": "{palette.neutral.900}",
+        "muted": "{palette.neutral.600}",
+        "inverse": "{palette.white}"
+      },
+      "surface": {
+        "page": "{palette.white}",
+        "card": "{palette.neutral.100}"
+      },
+      "brand": {
+        "primary": "{palette.ocean.600}",
+        "hover": "{palette.ocean.700}"
+      },
+      "feedback": {
+        "error": "{palette.coral.600}"
+      }
+    },
+    "dark": {
+      "text": {
+        "default": "{palette.neutral.100}",
+        "muted": "{palette.neutral.400}",
+        "inverse": "{palette.neutral.900}"
+      },
+      "surface": {
+        "page": "{palette.neutral.900}",
+        "card": "{palette.neutral.800}"
+      },
+      "brand": {
+        "primary": "{palette.ocean.400}",
+        "hover": "{palette.ocean.300}"
+      },
+      "feedback": {
+        "error": "{palette.coral.400}"
+      }
+    }
+  },
+
+  "typography": {
+    "fonts": {
+      "display": "Fraunces",
+      "body": "Inter"
+    },
+    "imports": ["https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500&display=swap"]
+  },
+
+  "spacing": {
+    "scale": {
+      "2xs": "2",
+      "xs":  "4",
+      "sm":  "8",
+      "md":  "16",
+      "lg":  "24",
+      "xl":  "32",
+      "2xl": "48",
+      "3xl": "64"
+    },
+    "semantic": {}
+  },
+
+  "border-radius": {
+    "scale": {
+      "sm": "12",
+      "md": "24",
+      "lg": "40",
+      "xl": "60"
+    },
+    "semantic": {}
+  }
+}

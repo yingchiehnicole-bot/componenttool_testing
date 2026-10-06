@@ -1,0 +1,6 @@
+export { HomeFillIcon } from './iconComponents/HomeFillIcon'
+export { HomeIcon } from './iconComponents/HomeIcon'
+export { ImgFillIcon } from './iconComponents/ImgFillIcon'
+export { ImgIcon } from './iconComponents/ImgIcon'
+export { PeopleFillIcon } from './iconComponents/PeopleFillIcon'
+export { PeopleIcon } from './iconComponents/PeopleIcon'

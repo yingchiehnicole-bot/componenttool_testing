@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* COLORS:START */
+  /* COLORS:END */
+
+  /* Typography
+     font-display, font-body */
+  --font-display: ;
+  --font-body: ;
+
+  /* Spacing (scale + semantic)
+     p-2xs, p-sm, m-md, gap-lg ... */
+  /* SPACING:START */
+  /* SPACING:END */
+
+  /* Border Radius (scale + semantic)
+     rounded-sm, rounded-md ... */
+  /* RADIUS:START */
+  /* RADIUS:END */
+
+  /* Any other token category from design-guideline.json (e.g. shadow) gets its
+     own <NAME>:START / <NAME>:END block here, added automatically the first
+     time /sync-tokens sees it — see .claude/skills/sync-tokens/SKILL.md. */
+}
+
+/* Dark mode — color tokens only, typography/spacing/radius stay the same */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* COLORS:START */
+    /* COLORS:END */
+  }
+}

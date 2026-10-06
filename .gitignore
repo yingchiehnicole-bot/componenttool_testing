@@ -1,0 +1,9 @@
+node_modules/
+dist/
+storybook-static/
+.pnpm-store/
+.claude/settings.local.json
+yarn-error.log
+
+# Holds your GitHub Packages auth token — never commit it. Copy .npmrc.example to .npmrc and fill it in.
+.npmrc

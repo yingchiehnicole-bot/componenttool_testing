@@ -1,0 +1,10 @@
+import { type SVGProps } from 'react'
+
+export function PeopleFillIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" {...props}>
+      <circle cx="12.0007" cy="6.86456" r="2.57489" fill="currentColor" stroke="currentColor"/>
+      <path d="M12.0003 11.0901C8.44481 11.0901 5.5625 13.4941 5.5625 16.4595V17.7104C5.5625 18.8149 6.45793 19.7104 7.5625 19.7104H16.4381C17.5427 19.7104 18.4381 18.8149 18.4381 17.7104V16.4595C18.4381 13.4941 15.5558 11.0901 12.0003 11.0901Z" fill="currentColor" stroke="currentColor"/>
+    </svg>
+  )
+}

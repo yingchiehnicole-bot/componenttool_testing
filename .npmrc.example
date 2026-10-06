@@ -1,0 +1,14 @@
+# Copy this file to `.npmrc` (which is gitignored), then fill it in.
+# The real `.npmrc` holds your token and is never committed.
+
+# Scope — keep the line that matches the account that owns the repo.
+# IMPORTANT: write the scope in all lowercase (e.g. org "VyntaHQ" -> "@vyntahq"),
+# npm scopes are lowercase-only or installs will fail.
+# Organization account
+@your-org:registry=https://npm.pkg.github.com
+
+# Personal account (username: janedoe)
+@janedoe:registry=https://npm.pkg.github.com
+
+# Paste the token you generated (with the write:packages scope)
+//npm.pkg.github.com/:_authToken=YOUR_TOKEN_HERE
